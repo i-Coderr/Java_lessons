@@ -35,10 +35,16 @@ public class Lesson4 {
         }*/
 
 
-        //TODO Ternary operator
+/*        //TODO Ternary operator
         int time = 14;
         String result = (time < 18) ? "Good day!" : "Good evening!";
-        System.out.println(result);
+        System.out.println(result);*/
 
+        //TODO Сабактагы тапшырма#3
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Баллыңызды жазыңыз: ");
+        int ball = scanner.nextInt();
+        String result = (ball >= 50) ? "pass" : "fail";
+        System.out.println("Результат: " + result);
     }
 }
