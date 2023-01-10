@@ -43,7 +43,7 @@ public class Lesson4 {
         //TODO Сабактагы тапшырма#3
         Scanner scanner = new Scanner(System.in);
         System.out.println("Баллыңызды жазыңыз: ");
-        int ball = scanner.nextInt();
+        double ball = scanner.nextInt();
         String result = (ball >= 50) ? "pass" : "fail";
         System.out.println("Результат: " + result);
     }
