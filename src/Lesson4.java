@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Lesson4 {
     public static void main(String[] args) {
 
@@ -31,6 +33,12 @@ public class Lesson4 {
         } else {
             System.out.println("Good evening!");
         }*/
+
+
+        //TODO Ternary operator
+        int time = 14;
+        String result = (time < 18) ? "Good day!" : "Good evening!";
+        System.out.println(result);
 
     }
 }
