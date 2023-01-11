@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.time.DayOfWeek;
 import java.util.Scanner;
 
@@ -43,8 +44,16 @@ public class Lesson4 {
             System.out.println("Good evening!");
         }*/
 
-        //TODO Logical operators
+/*        //TODO Logical operators
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Жаш курагыңызды жазыңыз");
+        int age = scanner.nextInt();
 
+        if (age >= 18 && age <= 30){
+            System.out.println("Сиз аскерге барышыңыз керек");
+        } else {
+            System.out.println("Сиздин курагыңыз аскерге барууга туура келбейт");
+        }*/
 
 /*        //TODO Сабактагы тапшырма#2
         Scanner scanner = new Scanner(System.in);
