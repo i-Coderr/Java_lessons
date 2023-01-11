@@ -1,3 +1,4 @@
+import java.time.DayOfWeek;
 import java.util.Scanner;
 
 public class Lesson4 {
@@ -11,8 +12,6 @@ public class Lesson4 {
             System.out.println("20 is greater than 18");
         }*/
 
-
-
 /*        //TODO else statement
         int time = 15;
 
@@ -21,8 +20,6 @@ public class Lesson4 {
         } else {
             System.out.println("Good evening!");
         }*/
-
-
 
 /*        //TODO Сабактагы тапшырма#1
         Scanner scanner = new Scanner(System.in);
@@ -35,9 +32,6 @@ public class Lesson4 {
             System.out.println("Negative");
         }*/
 
-
-
-
 /*        //TODO else if statement
         int time = 20;
 
@@ -49,9 +43,7 @@ public class Lesson4 {
             System.out.println("Good evening!");
         }*/
 
-
         //TODO Logical operators
-
 
 
 /*        //TODO Сабактагы тапшырма#2
@@ -71,13 +63,10 @@ public class Lesson4 {
             System.out.println("Үчүнчү сан чоң: " + c);
         }*/
 
-
-
 /*        //TODO Ternary operator
         int time = 14;
         String result = (time < 18) ? "Good day!" : "Good evening!";
         System.out.println(result);*/
-
 
 /*        //TODO Сабактагы тапшырма#3
         Scanner scanner = new Scanner(System.in);
@@ -85,5 +74,35 @@ public class Lesson4 {
         double ball = scanner.nextInt();
         String result = (ball >= 50) ? "pass" : "fail";
         System.out.println("Результат: " + result);*/
+
+/*        //TODO switch case
+        int day = 1;
+
+        switch (1) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("No such day!");
+        }*/
+
     }
 }
