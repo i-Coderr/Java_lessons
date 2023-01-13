@@ -21,6 +21,19 @@ public class Lesson5 {
         }*/
 
 
+/*        //TODO Сабактагы тапшырма#2
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        ++a;
+        while (a < b){
+            System.out.println(Math.pow(a, 2));
+            ++a;
+        }*/
+
+
+
 
     }
 }
