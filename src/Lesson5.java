@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Lesson5 {
     public static void main(String[] args) {
 
-/*        //TODO while
+        //TODO while
         int counter = 0;                             // cчетчик
         while (counter < 10){                        // счетчик 10дон кичине болсо
             System.out.println(counter + "Hello");   // консольго Hello деп чыгар
             counter++;                               // счетчик 1ге көбөй
-        }*/
+        }
 
 
 /*        //TODO Сабактагы тапшырма#1
@@ -42,7 +42,6 @@ public class Lesson5 {
                 System.out.println(counter);
             }
         }*/
-
 
     }
 }
