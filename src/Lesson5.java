@@ -32,7 +32,16 @@ public class Lesson5 {
             ++a;
         }*/
 
-
+/*        //TODO Сабактагы тапшырма#3
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int counter = 0;
+        while (a > counter){
+            counter++;
+            if (counter % 2 == 1){
+                System.out.println(counter);
+            }
+        }*/
 
 
     }
