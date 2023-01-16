@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Lesson6 {
     public static void main(String[] args) {
 
@@ -5,11 +7,11 @@ public class Lesson6 {
         int a = 0;
         while (a < 10) {
             System.out.println("Hello");
-            a++;
+            a++; // a = a + 1;
         }*/
 
 /*        //TODO for loop
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 2; i++){
             System.out.println("Hello");
         }*/
 
@@ -48,22 +50,21 @@ public class Lesson6 {
 
 /*        //TODO Nested for loop
 
-        // Сырткы цикл
-        for (int i = 1; i <= 2; i++) {
+        for (int i = 1; i <= 2; i++) { // Сырткы цикл
             System.out.println("Сырткы: " + i); // 2 жолу аткарылат
-            // Ички цикл
-            for (int j = 1; j <= 3; j++) {
+
+            for (int j = 1; j <= 3; j++) {    // Ички цикл
                 System.out.println(" Ички: " + j); //6 жолу аткарылат (2 * 3)
             }
         }*/
 
-/*        //TODO Сабактагы тапшырма#4
+        //TODO Сабактагы тапшырма#4
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();
-        }*/
+        }
 
 
     }
