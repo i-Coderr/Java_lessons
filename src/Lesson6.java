@@ -20,8 +20,21 @@ public class Lesson6 {
 
 /*        //TODO сабактагы тапшырма#2
         for (int i = 1; i <= 10; i++) {
-            System.out.println(9 + " * " + i + " = " + (9 * i));
+            System.out.println(9 + " * " + i + " = " + (9 * i) + ";");
         }*/
+
+/*        //TODO сабактагы тапшырма#3
+        int sum = 0;
+
+        for (int i = 1; i <= 100; ++i){
+            sum += i;
+        }
+
+        for (int i = 100; i >= 1; --i){
+            sum += i;
+        }
+
+        System.out.println("Sum = " + sum);*/
 
 /*        //TODO Infinite loop
 
@@ -43,6 +56,22 @@ public class Lesson6 {
                 System.out.println(" Ички: " + j); //6 жолу аткарылат (2 * 3)
             }
         }*/
+
+
+/*        int row, numberOfStars;
+        for (row = 1; row <= 10; row++) {
+            for(numberOfStars = 1; numberOfStars <= row; numberOfStars++) {
+                System.out.print("*");
+            }
+            System.out.println(); // Go to next line
+        }*/
+
+/*
+        int a = 1;
+        for (int i = 3; i >= 1; i--){
+            System.out.println(a = a + 1);
+        }
+*/
 
     }
 }
