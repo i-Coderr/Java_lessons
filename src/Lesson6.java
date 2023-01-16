@@ -18,6 +18,11 @@ public class Lesson6 {
             System.out.println(i);
         }*/
 
+/*        //TODO сабактагы тапшырма#2
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(9 + " * " + i + " = " + (9 * i));
+        }*/
+
 /*        //TODO Infinite loop
 
         for (int i = 1; i >= 1; i ++){
