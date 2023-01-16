@@ -57,21 +57,14 @@ public class Lesson6 {
             }
         }*/
 
-
-/*        int row, numberOfStars;
-        for (row = 1; row <= 10; row++) {
-            for(numberOfStars = 1; numberOfStars <= row; numberOfStars++) {
+/*        //TODO Сабактагы тапшырма#4
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
-            System.out.println(); // Go to next line
+            System.out.println();
         }*/
 
-/*
-        int a = 1;
-        for (int i = 3; i >= 1; i--){
-            System.out.println(a = a + 1);
-        }
-*/
 
     }
 }
