@@ -18,10 +18,15 @@ public class Lesson6 {
             System.out.println(i);
         }*/
 
-/*        //TODO Infinite loop
+        //TODO Infinite loop
+
+        for (int i = 1; i >= 1; i ++){
+            System.out.println("Infinite Loop1");
+        }
+
         for (;;) {
-            System.out.println("Infinite Loop");
-        }*/
+            System.out.println("Infinite Loop2");
+        }
 
     }
 }
