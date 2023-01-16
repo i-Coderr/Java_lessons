@@ -18,7 +18,7 @@ public class Lesson6 {
             System.out.println(i);
         }*/
 
-        //TODO Infinite loop
+/*        //TODO Infinite loop
 
         for (int i = 1; i >= 1; i ++){
             System.out.println("Infinite Loop1");
@@ -26,7 +26,18 @@ public class Lesson6 {
 
         for (;;) {
             System.out.println("Infinite Loop2");
-        }
+        }*/
+
+/*        //TODO Nested for loop
+
+        // Сырткы цикл
+        for (int i = 1; i <= 2; i++) {
+            System.out.println("Сырткы: " + i); // 2 жолу аткарылат
+            // Ички цикл
+            for (int j = 1; j <= 3; j++) {
+                System.out.println(" Ички: " + j); //6 жолу аткарылат (2 * 3)
+            }
+        }*/
 
     }
 }
