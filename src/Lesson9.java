@@ -1,8 +1,7 @@
 public class Lesson9 {
     public static void main(String[] args) {
 
-        myFirstVoidMethod();
-        System.out.println(myFirstReturnMethod());
+//        System.out.println(myFirstReturnMethod());
 
 //        sumWithVoidMethod( 10, 15);
 
@@ -12,20 +11,21 @@ public class Lesson9 {
 //        int n = one();
 //        System.out.println(n + 1);
 
-//        System.out.println(function(150));
+//        System.out.println(function(8));
 
-//        System.out.println(nameComparison("Ulan"));
+//        System.out.println(arithmetic(4, 5, 4));
 
-    }
-    //TODO void метод string sample
-    static void myFirstVoidMethod() {
-        System.out.println("This is void method");
+//        System.out.println(nameComparison("Abdusamat"));
+
+        int[] array = {1, 2, 3, 44, 5, 6, 7, 8, 9, 10};
+        int l = array.length;
+        System.out.println(getMax(array, l));
     }
 
-    //TODO return метод string sample
-    static String myFirstReturnMethod(){
-        return "This is return method";
-    }
+//    //TODO return метод string sample
+//    static String myFirstReturnMethod(){
+//        return "This is return method";
+//    }
 
 /*    //TODO void метод
     static void sumWithVoidMethod(int a, int b) {
@@ -42,17 +42,18 @@ public class Lesson9 {
         return 1;
     }*/
 
-/*    //TODO String type example
+/*    //TODO сабактагы тапшырма#1
     static String function(int a) {
-        if (a < 10)
-            return "Number less than 10";
-        if (a < 100)
-            return "Number greater than 10 but less than 100";
-        a = a * 10;
-            return "Number greater than or equal to 100";
+        if (a % 2 == 1) {
+            return "Так сан";
         }
+        return "Жуп сан";
     }*/
 
+/*    //TODO сабактагы тапшырма#2
+    static double arithmetic(int a, int b, int c) {
+        return (a + b + c) / 3D;
+    }*/
 
 /*    //TODO Сабактагы тапшырма#3
     static String nameComparison(String name) {
@@ -64,5 +65,14 @@ public class Lesson9 {
             return "Сиздин атыңыз узун экен";
         }
     }*/
+
+    //TODO сабактагы тапшырма#4
+    static int getMax(int arr[], int n)
+    {
+        int max = arr[0];
+        for (int i = 1; i < n; i++)
+            max = Math.max(max, arr[i]);
+        return max;
+    }
 
 }
