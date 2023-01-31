@@ -25,6 +25,8 @@ public class Practice {
 
         universalMethod(array);
 
+
+        method(1, 2, 3, 4.4, 5, 6.6, 7, 8, 9.9, 10);
     }
 
     static void universalMethod (int [] numbers){
@@ -44,6 +46,14 @@ public class Practice {
         }
         System.out.println(Arrays.toString(numbers) + "\nЖалпы сумма: " + sum + "\nЭң чон сан: " + max
         + "\nЖуп сандар: " + counter2 + "\nТак сандар: " + counter + "\nОрточо сан: " + sum / numbers.length);
-
     }
+
+    static void method(double... varags) {
+        for (double san : varags) {
+            if (san == 4.4 || san == 6.6 || san == 9.9) {
+                System.out.println(san);
+            }
+        }
+    }
+
 }
