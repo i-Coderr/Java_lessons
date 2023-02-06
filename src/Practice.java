@@ -5,6 +5,30 @@ import java.util.Scanner;
 public class Practice {
     public static void main(String[] args) {
 
+/*        Student st = new Student();
+        st.setEmail("Java");
+        Student st2 = new Student();
+        st2.setEmail("Java");
+        Student st3 = new Student();
+        st3.setEmail("JS");
+        Student st4 = new Student();
+        st4.setEmail("Js");
+        Student st5 = new Student();
+        st5.setEmail("Java");
+
+        Student[] students = {st, st2, st3, st4, st5};
+        int count = 0, count2 = 0;
+        for (Student student: students){
+            System.out.println(student);
+        }
+        for (int i = 0; i < students.length; i++) {
+            if (students.equals("Java")) {
+                count++;
+            } else count2++;
+        }
+
+        System.out.println("Java = " + count+ "JS = " + count2);*/
+
 //        int[] numbers = {8, 2, 7, 1, 4, 9, 5};
 //        int s = numbers[0];
 //        int l = numbers[0];
